@@ -45,3 +45,22 @@ footer {
     margin-left: 20px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#ABOUT {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    height: 200px;
+    width: 95vw;
+    background-color: #f5f5f5;
+    margin-top: 80px;
+    border-radius: 100px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
+}
+
