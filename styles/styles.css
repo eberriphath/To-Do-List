@@ -1,33 +1,30 @@
 body { 
     background: linear-gradient(to right, #6a11cb, #f7971e);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+h1, h2, h3 {
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
+}
+
+.sec1, .sec2 {
+    border: 1px solid white;
+    height: auto;
+    width: 550px;
+    background-color: #f5f5f5;
+    margin-top: 40px;
+    border-radius: 40px;
+    margin-left: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.sec1 {
-    border: 1px solid white;
-    height: 600px;
-    width: 550px;
-    background-color: #f5f5f5;
-    margin-top: 80px;
-    border-radius: 40px;
-    margin-left: 20px;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
-}
-
-.sec2 {
-    border: 1px solid white;
-    height: 600px;
-    width: 550px;
-    background-color: #f5f5f5;
-    margin-top: 80px;
-    border-radius: 40px;
-    margin-left: 20px;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
+    align-items: center;
 }
 
 .sect1 {
@@ -43,15 +40,10 @@ footer {
     height: 50px;
     width: 95vw;
     background-color: #f5f5f5;
-    margin-top: 80px;
+    margin-top: 40px;
     border-radius: 100px;
     margin-left: 20px;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
 }
 
 #ABOUT {
@@ -62,15 +54,77 @@ h2 {
     height: 150px;
     width: 55vw;
     background-color: #f5f5f5;
-    margin-top: 80px;
+    margin-top: 40px;
     border-radius: 5px;
     margin-left: 20px;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 4);
-
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
 }
 
-/* #p { */
-   /* margin-left: 20px; */
-/* } */
+#todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#todo-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#todo-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#todo-form input:focus {
+    border-color: #6a11cb;
+}
+
+#todo-form button {
+    padding: 12px;
+    width: 100%;
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#todo-form button:hover {
+    background-color: #f7971e;
+}
+
+ul#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+ul#todo-list li {
+    background-color: #eee;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
 
 
